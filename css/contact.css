@@ -1,0 +1,66 @@
+h1{
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 20%;
+}
+
+.home{
+    border-style: double;
+    padding: 5%;
+}
+
+.navflex {
+    position: absolute;
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5%;
+    z-index: 1;
+}
+
+.mainflex {
+    position: absolute;
+    display: flex;
+width: 100%;
+height: auto;
+flex-direction: row;
+place-content: center center;
+place-items: center center;
+margin: 1px;
+gap: 20%;
+flex-wrap: wrap;
+padding: 5%;
+
+}
+
+.title {
+    
+    position: relative;
+padding-left: 20%;
+padding-top: 15vh;
+font-size: xx-large;
+cursor: pointer;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+   
+    align-self: center;
+}
+
+
+
+.image {
+    width: auto;
+    height: 20vh;
+    transition: all 0.3s;
+}
+
+.image:hover {
+    rotate: 10deg;
+    scale: 120%;
+    
+}

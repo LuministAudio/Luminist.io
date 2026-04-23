@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/sound-mouseover.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/listen.css">
+    <title>Document</title>
+<script>
+</script>
+
+</head>
+<body>
+
+    <div class="backgroundimage">
+    <img src="imgs/abstract2.jpg" alt="">
+</div>
+    
+ <div class="backgroundflex">      
+    
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+<div class="gradientitem" id="rev">  </div>
+
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+<div class="gradientitem">  </div>
+
+</div>
+
+<audio autoplay src="audio/click.wav"></audio>
+<audio id="hoverSound" src="audio/hover.wav" ></audio>
+<audio id="hoverSound2" src="audio/hover2.wav" ></audio>
+
+<main>
+
+<div class="navflex">
+<nav>
+<a class="home" href="index.html" onmouseover="playHoverSound()">home</a>
+</nav>
+</div>
+
+
+
+<div class="mainflex">
+
+    <div class="players">
+
+<div class="player" onmouseover="playHoverSound(), playbreakcore()" onmouseout="playHoverSound(), pause()">
+    breakcore
+    <audio id="breakcore" src="audio/breakcore.mp3"></audio>
+</div>
+
+<div class="player" onmouseover="playHoverSound(), playdarksynth()" onmouseout="playHoverSound(), pause()">
+    darksynth
+    <audio id="darksynth" src="audio/darksynth.mp3"></audio>
+</div>
+
+<div class="player" onmouseover="playHoverSound(), playdnb()" onmouseout="playHoverSound(), pause()">
+    dnb
+    <audio id="dnb" src="audio/dnb.mp3"></audio>
+</div>
+
+<div class="player" onmouseover="playHoverSound(), playdubstep()" onmouseout="playHoverSound(), pause()">
+    dubstep
+    <audio id="dubstep" src="audio/dubstep.mp3"></audio>
+</div>
+
+<div class="player" onmouseover="playHoverSound(), playtrappy()" onmouseout="playHoverSound(), pause()">
+    trappy
+    <audio id="trappy" src="audio/trappy.mp3"></audio>
+</div>
+
+<div class="player">
+    dubstep
+    <audio id="dubstep" src="audio/new sound design.wav"></audio>
+</div>
+
+<div class="player">
+    dubstep
+    <audio id="dubstep" src="audio/new sound design.wav"></audio>
+</div>
+
+<div class="player">
+    dubstep
+    <audio id="dubstep" src="audio/new sound design.wav"></audio>
+</div>
+
+<div class="player">
+    dubstep
+    <audio id="dubstep" src="audio/new sound design.wav"></audio>
+</div>
+
+</div>
+
+</div>
+    
+</main>
+
+</body>
+</html>

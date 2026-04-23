@@ -1,0 +1,63 @@
+.backgroundflex {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   position: fixed;
+    justify-content: center;
+    padding: 0%;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  z-index: -2;
+
+
+}
+
+.gradientitem {
+min-width: 12.5%;
+text-align: center;
+min-height: 20%;
+background-color: rgb(255, 0, 0);
+
+}
+
+#rev{
+    margin: 0%;
+    padding: 0;
+}
+
+:root {
+--gradientcolours: rgb(223, 223, 255) 0%, rgb(217, 237, 255) 50%, rgb(216, 255, 252) 100%;
+
+}
+
+.gradientitem:nth-child(2n+1) {
+    background-image: linear-gradient(to top left, var(--gradientcolours));
+}
+
+.gradientitem:nth-child(2n) {
+    background-image: linear-gradient(to top right, var(--gradientcolours));
+}
+
+#rev:nth-child(2n+1){
+    background-image: linear-gradient(to bottom left, var(--gradientcolours));
+}
+
+#rev:nth-child(2n){
+    background-image: linear-gradient(to bottom right, var(--gradientcolours));
+}
+
+.backgroundimage{
+    display: flex;
+    position: absolute;
+
+}
+
+.backgroundimage img{
+    opacity: 100%;
+    mix-blend-mode: darken;
+    height: 100vh;
+    width: 100vw;
+}
+
